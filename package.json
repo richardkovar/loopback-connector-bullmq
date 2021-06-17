@@ -1,7 +1,7 @@
 {
   "name": "loopback-connector-bullmq",
   "version": "0.0.2",
-  "description": "",
+  "description": "BullMQ Loopback connector",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "bullmq": "^1.34.0",
+    "ioredis": "^4.27.6",
     "loopback-connector": "^5.0.1"
   }
 }
