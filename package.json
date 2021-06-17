@@ -2,8 +2,9 @@
   "name": "loopback-connector-bullmq",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "watch": "tsc-watch --onSuccess \"node .\"",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky install"
   },
@@ -11,6 +12,8 @@
   "author": "rokl",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@tsconfig/recommended": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
