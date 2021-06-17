@@ -1,9 +1,10 @@
 {
   "name": "loopback-connector-bullmq",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
+    "build": "tsc",
     "watch": "tsc-watch --onSuccess \"node .\"",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky install"
@@ -25,5 +26,9 @@
     "pretty-quick": "^3.1.0",
     "tsc-watch": "^4.4.0",
     "typescript": "^4.3.3"
+  },
+  "dependencies": {
+    "bullmq": "^1.34.0",
+    "loopback-connector": "^5.0.1"
   }
 }
