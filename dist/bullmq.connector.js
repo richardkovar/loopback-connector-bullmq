@@ -20,3 +20,4 @@ class BullMQConnector extends Connector {
     }
 }
 exports.BullMQConnector = BullMQConnector;
+//# sourceMappingURL=bullmq.connector.js.map

@@ -9,3 +9,4 @@ function initialize(dataSource, cb) {
     cb();
 }
 exports.initialize = initialize;
+//# sourceMappingURL=index.js.map
